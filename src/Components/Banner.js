@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -26,7 +25,7 @@ const textFont = {
               src={avatar}
               alt="rogelio's avatar"
               className="img-fluid"
-            ></img>
+            />
           </Col>
           <Col md={12} lg={7} className="text-center d-flex flex-column justify-content-center align-items-center">
             <div style={{ padding: "30px 0" }}>
