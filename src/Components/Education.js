@@ -7,23 +7,15 @@ const Education = () => {
     <div className="background-light">
       <Container>
         <div className="text-center" style={{ padding: "50px 0 40px" }}>
-          <h1 className="title-light">Interests</h1>
+          <h1 className="title-light">Education</h1>
         </div>
         <Row>
-            <Col sm={12} md={6} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
-            </Col>
-            <Col sm={12} md={6} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
-            </Col>
-            <Col sm={12} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
-            </Col>
-        </Row>
-        <Row>
-            <Col md={0} lg={2} />
-            <Col sm={12} md={6} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
-            </Col>
-            <Col sm={12} md={6} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
-            </Col>
-            <Col md={0} lg={2} />
+          <Col sm={12} md={6} className="text-center">
+            <h2 className="secondary-title-light">Formal Education</h2>
+          </Col>
+          <Col sm={12} md={6} className="text-center">
+            <h2 className="secondary-title-light">Online Courses</h2>
+          </Col>
         </Row>
       </Container>
     </div>

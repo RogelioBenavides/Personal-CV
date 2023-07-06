@@ -11,6 +11,14 @@ BBE1FA
     background-color: #1B262C;
 }
 
+.nav-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-text {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Backgrounds */
 .background-light {
     background-color: #BBE1FA;
@@ -32,6 +40,20 @@ BBE1FA
     color:#1B262C;
     font-size: 64px;
     font-family: 'Pacifico', 'cursive';
+    padding-bottom: 10px;
+}
+
+.secondary-title-dark{
+    color:#BBE1FA;
+    font-size: 48px;
+    font-family: 'Roboto', 'sans-serif';
+    padding-bottom: 10px;
+}
+
+.secondary-title-light{
+    color:#1B262C;
+    font-size: 48px;
+    font-family: 'Roboto', 'sans-serif';
     padding-bottom: 10px;
 }
 

@@ -6,11 +6,6 @@ import resume from "../Documents/Rogelio Benavides CV.pdf";
 import PrimaryButton from "./PrimaryButton";
 
 const Banner = () => {
-  const textFont = {
-    fontFamily: "Roboto, sans-serif",
-    fontSize: "24px",
-    paddingBottom: "10px",
-  };
   return (
     <div className="background-light">
       <Container>
@@ -18,10 +13,7 @@ const Banner = () => {
           <Col md={12} lg={5} className="text-center" style={{ paddingTop: "30px" }}>
             <img src={avatar} alt="rogelio's avatar" className="img-fluid" />
           </Col>
-          <Col
-            md={12}
-            lg={7}
-            className="text-center d-flex flex-column justify-content-center align-items-center">
+          <Col md={12} lg={7} className="text-center d-flex flex-column justify-content-center align-items-center">
             <div style={{ padding: "30px 0" }}>
               <h1 className="title-light">Hi, I'm Roger</h1>
               <p className="text-lights">
@@ -31,6 +23,7 @@ const Banner = () => {
               </p>
               <a href={resume} download>
                 <PrimaryButton message="Download Resume" />
+                <PrimaryButton message="Hola" />
               </a>
             </div>
           </Col>
