@@ -8,23 +8,11 @@ import uiux from "../Images/Interests/ui-ux.svg"
 import algorithm from "../Images/Interests/algorithm.svg"
 
 const Interests = () => {
-  const titleFont = {
-    fontFamily: "Pacifico, cursive",
-    fontSize: "64px",
-    color: "#BBE1FA",
-    paddingBottom: "10px",
-  };
-  const interestFont = {
-    fontFamily: "Roboto, sans-serif",
-    fontSize: "48px",
-    color: "#BBE1FA",
-    paddingTop: "20px",
-  };
   return (
-    <div className="interest">
+    <div className="background-dark">
       <Container>
         <div className="text-center" style={{ padding: "50px 0 40px" }}>
-          <h1 style={titleFont}>Interests</h1>
+          <h1 className="title-dark">Interests</h1>
         </div>
         <Row>
             <Col sm={12} md={6} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
@@ -33,7 +21,7 @@ const Interests = () => {
                     src={web}
                     alt="world icon"
                     />
-                <h1 style={interestFont}>Web Dev</h1>
+                <h1 className="text-interest">Web Dev</h1>
             </Col>
             <Col sm={12} md={6} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
                 <img
@@ -41,7 +29,7 @@ const Interests = () => {
                     src={uiux}
                     alt="desing icon"
                     />
-                <h1 style={interestFont}>UI/UX</h1>
+                <h1 className="text-interest">UI/UX</h1>
             </Col>
             <Col sm={12} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
                 <img
@@ -49,7 +37,7 @@ const Interests = () => {
                     src={algorithm}
                     alt="algoritm icon"
                     />
-                <h1 style={interestFont}>Algorithms</h1>
+                <h1 className="text-interest">Algorithms</h1>
             </Col>
         </Row>
         <Row>
@@ -60,7 +48,7 @@ const Interests = () => {
                     src={linux}
                     alt="linux icon"
                     />
-                <h1 style={interestFont}>Linux</h1>
+                <h1 className="text-interest">Linux</h1>
             </Col>
             <Col sm={12} md={6} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
                 <img
@@ -68,7 +56,7 @@ const Interests = () => {
                     src={ai}
                     alt="openai logo"
                 />
-                <h1 style={interestFont}>AI</h1>
+                <h1 className="text-interest">AI</h1>
             </Col>
             <Col md={0} lg={2} />
         </Row>

@@ -6,14 +6,46 @@
 BBE1FA
 */
 
+/* Navigation Bar */
 .nav-color {
     background-color: #1B262C;
 }
 
-.banner {
+/* Backgrounds */
+.background-light {
     background-color: #BBE1FA;
 }
 
-.interest {
+.background-dark{
     background-color: #0F4C75;
+}
+
+/* Titles */
+.title-dark{
+    color:#BBE1FA;
+    font-size: 64px;
+    font-family: 'Pacifico', 'cursive';
+    padding-bottom: 10px;
+}
+
+.title-light{
+    color:#1B262C;
+    font-size: 64px;
+    font-family: 'Pacifico', 'cursive';
+    padding-bottom: 10px;
+}
+
+/* Texts */
+.text-lights{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 24px;
+    color: #1B262C;
+    padding-bottom: 10px;
+}
+
+.text-interest{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 48px;
+    color: #BBE1FA;
+    padding-top: 20px;
 }
