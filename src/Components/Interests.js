@@ -29,23 +29,26 @@ const Interests = () => {
         <Row>
             <Col sm={12} md={6} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
                 <img
+                    width="180px"
                     src={web}
                     alt="world icon"
-                />
+                    />
                 <h1 style={interestFont}>Web Dev</h1>
             </Col>
             <Col sm={12} md={6} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
                 <img
+                    width="180px"
                     src={uiux}
                     alt="desing icon"
-                />
+                    />
                 <h1 style={interestFont}>UI/UX</h1>
             </Col>
             <Col sm={12} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
                 <img
+                    width="180px"
                     src={algorithm}
                     alt="algoritm icon"
-                />
+                    />
                 <h1 style={interestFont}>Algorithms</h1>
             </Col>
         </Row>
@@ -53,13 +56,15 @@ const Interests = () => {
             <Col md={0} lg={2} />
             <Col sm={12} md={6} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
                 <img
+                    width="180px"
                     src={linux}
                     alt="linux icon"
-                />
+                    />
                 <h1 style={interestFont}>Linux</h1>
             </Col>
             <Col sm={12} md={6} lg={4} className="text-center" style={{paddingBottom: "30px"}}>
                 <img
+                    width="180px"
                     src={ai}
                     alt="openai logo"
                 />
