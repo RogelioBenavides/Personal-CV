@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import avatar from "../Images/avatar.svg";
 import resume from "../Documents/Rogelio Benavides CV.pdf";
-import PrimaryButton from "./PrimaryButton";
+import PrimaryButton from "../UI/PrimaryButton";
 
 const Banner = () => {
   return (

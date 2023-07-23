@@ -1,8 +1,26 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import EducationList from "../UI/List"
 
 const Education = () => {
+  const formal = [
+    {
+      title: 'Universidad de Monterrey - Computer Science',
+      time: '2020-2024',
+      image: '../Images/Education/udem.png'
+    },
+    {
+      title: 'Universidad de Monterrey - International Baccalaureate',
+      time: '2017-2020',
+    },
+  ];
+  // const curses = [
+  //   {
+  //     title: 'Ant Design Title 1',
+  //     time: 'Ant Design Title 1',
+  //   },
+  // ];
   return (
     <div className="background-light">
       <Container>
